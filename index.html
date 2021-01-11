@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet"> -->
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+    <script defer src="js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diamonds</title>
+</head>
+<body>
+    
+    <div class="counters">
+        <i class="fas fa-air-freshener"></i>
+        <div class="patron-counter">Патроны: 0</div>
+        <div class="zomb-counter"> Мозги: 0</div>
+        <div class="vampire-counter">Ампулы с кровью: 0</div>
+        <div class="big-med-counter">Большие лекарства: 0</div>
+        <div class="small-med-counter">Маленькие лекарства : 0</div>
+    </div>
+
+
+    <div class="main-area">
+        <div class="app-area">
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+                <div class="cell"></div>
+                <div class="cell boss"></div>
+                <div class="cell zomb"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+                <div class="cell vampire"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell vampire"></div>
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+            </div>
+            <div class="row">
+                <div class="cell vampire"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell zomb"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell vampire"></div>
+                <div class="cell"></div>
+                <div class="cell boss"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell patron"></div>
+                <div class="cell patron"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+            </div>
+            <div class="row">
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell"></div>
+                <div class="cell boss"></div>
+                <div class="cell patron"></div>
+                <div class="cell patron"></div>
+                <div class="cell patron"></div>
+            </div>
+        </div>
+
+
+        <div class="desk">
+            <p class="desk-title">Купить лекарство</p>
+            <div class="med-buttons">
+                <button class="med-but-small"></button>
+
+                <button class="med-but-big"></button>
+            </div>
+
+            <p class="desk-desc">Купите лекарство, чтобы выиграть призы:<br> Маленькое лекарство: 5 ампул с кровью и 7 мозгов <br> 
+            Большое лекарство: 10 ампул с кровью и 15 мозгов</p>
+        </div>
+    </div>
+
+    <div class="prize-area">
+        <div class="prize-item">
+            <p>Маленький кейс - 1 Маленькое лекарство</p>
+        <div class="small-prize"></div>
+            <button class="prize-small-but">Получить</button>
+        </div>
+
+        <div class="prize-item">
+            <p>Большой кейс  - 1 Большое лекарство</p>
+            <div class="big-prize"></div>
+            <button class="prize-big-but">Получить</button>
+        </div>
+    </div>
+
+
+    <div class="popup-bg ">
+        <div class="popup">
+            <p class="popup-title">Купить патроны</p>
+            <button class="cross"><i class="fa fa-times" aria-hidden="true"></i></button>
+            <div class="donat">
+                <div class="donat-item">
+                    <img src="img/small-donat.png" alt="">
+                    <p class="donat-size">10 патронов</p>
+                    <button class="donat-button">Купить за 100 рублей</button>
+                </div>
+                <div class="donat-item">
+                    <img src="img/big-donat.png" alt="">
+                    <p class="donat-size">100 патронов</p>
+                    <button class="donat-button">Купить за 1000 рублей</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <p class="card-title">GOLD CARD</p>
+                <input class="card-number" placeholder='Номер карты:  **** - **** - ****  - ****' type="text">
+                <input class="card-date" placeholder='Срок карты'  type="text">
+
+                <button class="card-but">Оплатить</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

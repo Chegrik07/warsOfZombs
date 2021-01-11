@@ -1,0 +1,333 @@
+body{
+    background-color: #fccb81;
+}
+
+
+.app-area{
+    outline: 2px solid black;
+
+}
+
+
+.app-area:hover{
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    outline: 1px solid black;
+    background: url(../img/bg.png);
+}
+
+.zomb{
+    background: url(../img/zomb.png);
+}
+
+.waiting-zomb{
+    background: url(../img/waiting-brain.png);
+}
+
+.vampire{
+    background: url(../img/vampire.png);
+}
+
+.waiting-vampire{
+    background: url(../img/waiting-vampire.png);
+}
+
+.patron{
+    background: url(../img/patron.png);
+}
+
+.waiting-patron{
+    background: url(../img/waiting-patron.png);
+}
+
+.counters{
+    max-width: 1000px;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(248, 107, 107);
+    border-radius: 10px;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 20px 1px #a09e9e;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.popup-bg{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color:  rgba(168, 168, 168, 0.842);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donat-size{
+    font-size: 25px;
+    text-align: center;
+}
+
+.popup-view{
+    display: flex!important;
+}
+
+
+.popup{
+    width: 800px;
+    border: 1px solid firebrick;
+    background-color: white;
+    overflow: scroll;
+    position: relative;
+}
+
+.donat-button{
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+    padding: 9px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.donat{
+    display: flex;
+    justify-content: space-around;
+}
+
+.donat-item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid red;
+    padding: 20px;
+}
+
+.popup-title{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
+}
+
+
+.card{
+    /* display: none; */
+    width: 80%;
+    max-height: 300px;
+    border: 1px solid black;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: rgb(243, 201, 14);
+    box-shadow: 2px 2px 5px 10px lightgrey;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 25px;
+}
+
+.card-number{
+    width: 80%;
+    display: block;
+    margin: 30px auto;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.card-date{
+    width: 200px;
+    outline: none;
+    padding-left: 20px;
+    border: none;
+    font-size: 20px;
+    margin: 0 auto;
+    display: block;
+}
+
+.card-but{
+    border: none;
+    margin: 50px auto;
+    display: block;
+    padding: 10px 20px;
+}
+
+
+.card-chosen{
+    background-color: firebrick;
+}
+
+.card-not-chosen{
+    background-color: white;
+}
+
+.wrong{
+    border: 1px solid red;
+}
+
+
+
+.desk{
+    width: 800px;
+    height: 800px;
+    background: url(../img/desk.png) no-repeat;
+    background-size: cover;
+}
+
+.main-area{
+    display: flex;
+    justify-content: space-around;
+}
+
+.desk-title{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+
+.med-but-small{
+    width: 300px;
+    height: 300px;
+    background: url(../img/small-med.png) no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    outline: none;
+}
+
+.med-but-small:hover{
+    cursor: pointer;
+}
+
+.med-but-big{
+    width: 300px;
+    height: 300px;
+    background: url(../img/big-med.png) no-repeat;
+    background-size: cover;
+    border-radius: 14px;
+    outline: none;
+}
+
+.med-but-big:hover{
+    cursor: pointer;
+}
+
+.med-buttons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.desk-desc{
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+.prize-area{
+    max-width: 1500px;
+    height: 600px;
+    background: linear-gradient(to right top, #87f7a9, #f5ab4a);
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.small-prize{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-image:  url(../img/small-present.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+.big-prize{
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    background-image:  url(../img/big-present.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+.prize-item{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+.boss-active{
+    background: url(../img/boss.png) no-repeat;
+    background-size: cover;
+}
+
+
+.prize-small-but{
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    outline: none;
+}
+
+.cross{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    background: none;
+    font-size: 30px;
+}
+
+.cross:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
+
+
+.prize-big-but{
+    padding: 15px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
+    outline: none;
+}
+
+.prize-big-but:hover{
+    cursor: pointer;
+}
+
+.prize-small-but:hover{
+    cursor: pointer;
+}

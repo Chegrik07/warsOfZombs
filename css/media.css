@@ -1,0 +1,38 @@
+@media(max-width: 1630px){
+    .main-area{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app-area{
+        outline: none;
+        margin-bottom: 100px;
+    }
+
+    .prize-area{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .prize-item{
+        margin-bottom: 50px;
+    }
+}
+
+
+@media(max-width: 1100px){
+    .counters{
+        font-size: 25px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media(max-height: 1100px){
+    .popup{
+        height: 500px;
+    }
+}
